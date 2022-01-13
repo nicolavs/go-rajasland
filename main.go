@@ -9,7 +9,7 @@ func main() {
 	app := fiber.New()
 	app.Use(cors.New())
 
-	//database.ConnectDB()
+	//platform.ConnectDB()
 	//
 	//router.SetupRoutes(app)
 	//log.Fatal(app.Listen(":3000"))
