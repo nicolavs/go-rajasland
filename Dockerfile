@@ -12,6 +12,7 @@ RUN go build -o /project/go-docker/build/myapp .
 
 FROM scratch
 COPY --from=builder /project/go-docker/build/myapp /project/go-docker/build/myapp
+COPY --from=builder /platform/migrations /db/migrations
 
 EXPOSE 8080
 ENTRYPOINT [ "/project/go-docker/build/myapp" ]
