@@ -11,6 +11,6 @@ func main() {
 
 	//platform.ConnectDB()
 	//
-	//router.SetupRoutes(app)
+	//routes.SetupRoutes(app)
 	//log.Fatal(app.Listen(":3000"))
 }

@@ -1,10 +1,10 @@
-package platform
+package database
 
 import (
+	"api-fiber/app/models"
 	"log"
 	"os"
 
-	"api-fiber/models"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
